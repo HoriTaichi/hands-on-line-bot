@@ -14,3 +14,7 @@ https://ngrok.com/
 npx ngrok config add-authtoken <ngrok の token>
 
 npm start
+
+
+## deploy
+npx sls deploy --aws-profile hands-on-dynamodb

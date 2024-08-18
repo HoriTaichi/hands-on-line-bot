@@ -30,7 +30,7 @@ provider:
             - "Fn::GetAtt": [HandsOnLineBotBucket, Arn]
 
 custom:
-  bucketName: hands-on-line-bot
+  bucketName: handsonlinebot
   tableName: HandsOnLineBot
 
 # Lambdaの設定
